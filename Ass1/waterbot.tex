@@ -6,7 +6,7 @@
 % \usetheme[minimal]{tugraz2013}
 
 %% Titelblatt-Einstellungen
-\title[Waterbot]{Paper Discussion -  Waterbot:\\Exploring Feedback and \\Persuasive Techniques at the Sink}
+\title[Waterbot]{Waterbot}%%:\\Exploring Feedback and \\Persuasive Techniques at the Sink}
 \author{Robert Thomann, Manuel Zoderer}
 \date{Graz, 23. March 2015}		% \today für heutiges Datum verwenden
 %\date{\today}
@@ -21,20 +21,34 @@
 \titleframe
 
 \begin{frame}
+  \frametitle{The Paper}
+  \begin{quote}``Waterbot: Exploring Feedback and Persuasive Techniques at the Sink''\end{quote}
+  \begin{itemize}
+  \item Authors: 
+    \begin{itemize} 
+    \item Ernesto Arroyo
+    \item Leonardo Bonanni
+    \item Ted Selker
+    \end{itemize}
+  \item MIT Media Laboratory
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
   \frametitle{Content}
   \tableofcontents%[hideallsubsections] 
 \end{frame}
 
 
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Overview}
+
 \begin{frame}
 	\frametitle{Overview}
 	\begin{itemize}
-	  \item Waterbot is a system to inform and motivate behavior at the sink.
-            \item Persuasive techniques instead of automatisation.
+	  \item A system to inform and motivate behavior at the sink
+          \item Persuasive techniques (instead of automatisation)
           \item Four prototypes
 	    \begin{itemize}
               \item HeatSink
@@ -48,41 +62,71 @@
 
 
 \begin{frame}
-	\frametitle{HeatSink}
-	\begin{itemize}
-	  \item ...
-          \item Feedback by: ...
-        \end{itemize}          
+  \frametitle{HeatSink}
+
+  \begin{columns}[c] % the "c" option specifies center vertical alignment
+    \column{.5\textwidth} % column designated by a command
+    Iluminates the water stream dependent on its temperature
+    \column{0.5\textwidth}
+    \includegraphics[width=\textwidth]{Bilder/HeatSink.jpg}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{SeeSink}
+  \begin{columns}[c]
+    \column{.5\textwidth}
+    \begin{itemize}
+    \item tasks detected with CCD camera
+    \item automatic temperature and flow control
+    \item ilumination like HeatSink
+    \end{itemize}
+    \column{0.5\textwidth}
+    \includegraphics[width=\textwidth]{Bilder/SeeSink.jpg}
+  \end{columns}
 
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{SeeSink}
-	\begin{itemize}
-	  \item ...
-          \item Feedback by: ...
-        \end{itemize}          
+  \frametitle{CleanSink}
+  For monitoring of hand-washing compliance.
+  \begin{columns}[c]
+    \column{.5\textwidth}
+    \begin{itemize}
+    \item flashing after time
+    \item RFID login
+    \item connected with environment\\(lights, locks)
+    \end{itemize}
+    \column{0.5\textwidth}
+    \includegraphics[width=\textwidth]{Bilder/CleanSink.jpg}
+  \end{columns}
 
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{CleanSink}
-	\begin{itemize}
-	  \item ...
-          \item Feedback by: ...
-        \end{itemize}          
+  \frametitle{WaterBot}
+  \begin{columns}[c]
+    \column{.5\textwidth}
+    \begin{itemize}
+    \item tracks water usage
+      \begin{itemize}
+      \item time
+      \item flow
+      \end{itemize}
+    \item visual feedback
+      \begin{itemize}
+      \item HeatSink
+      \item LED bars
+      \end{itemize}
+    \item auditory messages
+    \end{itemize}
+    \column{0.5\textwidth}
+    \includegraphics[width=\textwidth]{Bilder/WaterBot.jpg}
+  \end{columns}
 
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{WaterBot}
-	\begin{itemize}
-	  \item ...
-          \item Feedback by: ...
-        \end{itemize}          
 
 \end{frame}
 
@@ -131,7 +175,7 @@
 \begin{frame}
 	\frametitle{Methodology - Shortcommings}
 	\begin{itemize}
-	  \item Crucial data not included.
+	  \item Some data is not included.
 	  \item Lack of structure in user study.
         \end{itemize}          
 
@@ -153,8 +197,8 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Impact 2}
-        TBD: INSERT PICTURE
+	%\frametitle{Impact 2}
+        \includegraphics[width=\textwidth]{Bilder/faucet1.png}
         
 \end{frame}
 
