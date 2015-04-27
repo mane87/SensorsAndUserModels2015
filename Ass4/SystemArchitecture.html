@@ -1,0 +1,25 @@
+<h2>System architecture</h2>
+
+<p>Since we are implementing our prototype on iOS, we are are using a model-view-controller wich ist the most common architecture (besides model-view-viewmodel) on this platform.</p>
+
+<p>At the following sections we are going to briefly describe the individual components.</p>
+
+<h2>Waterboy-ui</h2>
+
+<p>This component contains all the views wich we need for implementing the GUI for our prototype.</p>
+
+<p>We are going to use mostly standard iOS user interface components simply because its the fastest way, and besides that, users are used to this patterns.</p>
+
+<h2>Eventmanager</h2>
+
+<p>This component represents the controller in our system. It basically handles all the logic, updates the ui and handles all the data.</p>
+
+<h2>Database</h2>
+
+<p>The database is our model. We are going to implement several model classes wich store our data. To persist this classes, we are simply serialising them to disk.</p>
+
+<h2>Corelocation</h2>
+
+<p>Since Apple ist seeing bluetooth-beacons as a way to locate the user, all the corresponding functionality ist embedded in the CoreLocation framework, wich we are going to use for handling the beacons. </p>
+
+
